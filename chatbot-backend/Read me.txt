@@ -1,25 +1,4 @@
-Hi my self Ayush Thakur
-
-I am making this document to tell you about my model 
-
-first of all i have used pdfplumber library to extract text, data, and tables from PDF files.
-
-Then I have used transformers and sentence transformers for efficient processing of large amounts of text data.
-
-I have used faiss (facebook AI similarity search) for performing efficient similarity searches on large datasets of dense vectors.
-
-And you can see one of the output in the jupyter notebook.
-
-For frontend i have used gradio. because streamlit was not compatible on my system.
-
-How this work can be more Optimized and produce accurate result - 
--> First of all we need a good GPU with CUDA. By the way all modern GPU have inbuilt CUDA in them.
--> Secondly for this a manual built of PyTorch is needed because it was giving kernel errors. 
--> Streamlit is good for small scale task but if we have to make this application scalable then we have to use a robust web framework (for eg. with Java and react).
--> I have used transformers but we can also use gpt model of OpenAi for QA or we can built our own model.
--> A good system is essential with better RAM and of course with good internet speed.
--> We can produce more accurate results with pipelining the process i.e. we can extract all the data from DOCS and store it as csv file or in database first.
-
-I was not able to generate good results because of my Laptop.
-
-Thank you 
+This is backend of this chatbot.
+I have used some specified queries and their answers in db.js file. 
+I have added main.py for using a pre trained model.
+We can link the chatbot with a more advanced NLP system to make it more dynamic.
